@@ -26,13 +26,13 @@ export default function Header() {
         </p>
 
         <div className="social-links flex gap-5 mb-8">
-          <a href="#" className="text-gray-400 hover:text-white transition-colors">
+          <a href="https://github.com/theanuragg" className="text-gray-400 hover:text-white transition-colors">
             <FaGithub size={22} />
           </a>
-          <a href="#" target="_blank" className="text-gray-400 hover:text-white transition-colors">
+          <a href="https://x.com/theaanuragg" target="_blank" className="text-gray-400 hover:text-white transition-colors">
             <FaTwitter size={22} />
           </a>
-          <a href="#" target="_blank" className="text-gray-400 hover:text-white transition-colors">
+          <a href="https://www.linkedin.com/in/anurag-singh-2b7bb624a/" target="_blank" className="text-gray-400 hover:text-white transition-colors">
             <FaLinkedin size={22} />
           </a>
           <a href="#" target="_blank" className="text-gray-400 hover:text-white transition-colors">

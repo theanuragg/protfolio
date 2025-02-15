@@ -2,41 +2,40 @@
 
 import React from 'react'
 import ProjectCard from './ProjectCard'
-import { FiDatabase, FiMessageSquare } from 'react-icons/fi'
+import { FiDatabase } from 'react-icons/fi'
 import { FaDiscord, FaMarkdown } from 'react-icons/fa'
 import { BsRobot } from 'react-icons/bs'
 
 export default function ProjectsGrid() {
   const projects = [
     {
-      title: "Supermemory",
-      description: "AI second brain for your team. Supermemory is a tool that helps you capture, organize, and retrieve information from your team's conversations and documents.",
+      title: "Gathering",
+      description: "Your office, anywhere—customizable, collaborative, and built for every way your team works best.",
       icon: FiDatabase
     },
     {
-      title: "Supermemory DB",
-      description: "Vector database I made for Supermemory. Fully serverless and infinitely scalable by using Cloudflare R2 and Durable objects.",
+      title: "CEX & DEX ",
+      description: "Unlock the Best of Both Worlds—The Security and Control of DEX Meets the Speed and Liquidity of CEX.",
       icon: FiDatabase
     },
     {
-      title: "Markdownr",
-      description: "Convert text to LLM-ready markdown with one click. Supermemory helper tool.",
+      title: "website builder",
+      description: "Build Websites Faster—Effortless, Scalable, and Customizable in Just a Few Clicks.",
       icon: FaMarkdown
     },
     {
-      title: "Discord Bot to Portfolio",
-      description: "A discord bot that creates a website for your server.",
+      title: "katha.io",
+      description: "From Idea to Innovation—Share Your Build, Inspire the Future.",
       icon: FaDiscord
     },
     {
-      title: "Redish",
-      description: "Super fast drop-in replacement of the in memory key value data Redis, made in Golang",
+      title: "Aloom",
+      description: "Record, Share, and Collaborate—Effortless Video Messaging for Seamless Communication.",
       icon: BsRobot
     },
     {
-      title: "Lecture Chat",
-      description: "A Virtual TA that listens to the lecture and answers your doubts in real time.",
-      icon: FiMessageSquare
+      title: "Gumi",
+      description: "Explore Like a Local—Rent a Guider, Be a Guider, Discover Hidden Gems.",
     }
   ]
 
