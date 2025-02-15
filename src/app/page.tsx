@@ -1,17 +1,16 @@
-import Header from '@/components/Header'
-import ProjectsGrid from '@/components/ProjectsGrid'
-import Achievements from '@/components/Achievements'
+
+import Header from '../components/Header'
+import ProjectsGrid from '../components/ProjectsGrid'
+import Achievements from '../components/Achievements'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#0a192f]">
+    <main className="min-h-screen bg-[#0a192f]">
       <div className="max-w-6xl mx-auto px-4">
         <Header />
-        <main>
-          <ProjectsGrid />
-          <Achievements />
-        </main>
+        <ProjectsGrid />
+        <Achievements />
       </div>
-    </div>
+    </main>
   );
 }

@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.x",
-    "next": "latest",
+    "next": "^15.1.7",
     "react": "latest",
     "react-dom": "^19.0.0",
     "react-icons": "^4.12.0",

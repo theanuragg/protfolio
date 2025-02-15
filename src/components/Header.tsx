@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { FaGithub, FaTwitter, FaLinkedin, FaDiscord, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaLinkedin, FaDiscord } from "react-icons/fa";
 
 export default function Header() {
   return (
