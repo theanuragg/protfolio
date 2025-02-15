@@ -9,8 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
+        'dark-navy': '#0a192f',
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      fontFamily: {
+        pixel: ['"Press Start 2P"', 'cursive'],
       },
     },
   },
