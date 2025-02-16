@@ -15,7 +15,7 @@ const pixelFont = Press_Start_2P({
 
 // Metadata should be exported from a server component
 export const metadata: Metadata = {
-  title: "Pathont - Developer & Open Source Enthusiast",
+  title: "Anurag - Developer & Open Source Enthusiast",
   description: "Full-stack developer and open source contributor building cool stuff.",
 };
 
