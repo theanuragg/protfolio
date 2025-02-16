@@ -19,12 +19,12 @@ export default function ProjectsGrid() {
       icon: FiDatabase
     },
     {
-      title: "website builder",
+      title: "Website Builder",
       description: "Build Websites Faster—Effortless, Scalable, and Customizable in Just a Few Clicks.",
       icon: FaMarkdown
     },
     {
-      title: "katha.io",
+      title: "Katha.io",
       description: "From Idea to Innovation—Share Your Build, Inspire the Future.",
       icon: FaDiscord
     },
@@ -41,7 +41,7 @@ export default function ProjectsGrid() {
 
   return (
     <section className="py-16">
-      <h2 className="text-2xl font-bold mb-8">Latest projects</h2>
+      <h2 className="text-2xl text-gray-300 font-bold mb-8">Latest Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />
