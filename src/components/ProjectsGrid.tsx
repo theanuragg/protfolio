@@ -15,7 +15,7 @@ export default function ProjectsGrid() {
       icon: FiDatabase,
       href: "https://relayer.theaanurag.xyz/",
       github: "https://github.com/your-org/relayer",
-      image: "/relayer.jpg"
+      image: "/relayer.JPG"
     },
     {
       title: "uptime monitoring",
