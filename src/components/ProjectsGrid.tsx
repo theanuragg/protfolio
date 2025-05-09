@@ -5,7 +5,6 @@ import ProjectCard from "./ProjectCard";
 import { FiDatabase } from "react-icons/fi";
 import { FaDiscord, FaMarkdown } from "react-icons/fa";
 import { BsRobot } from "react-icons/bs";
-import { link } from "fs";
 
 export default function ProjectsGrid() {
   const projects = [
@@ -23,8 +22,8 @@ export default function ProjectsGrid() {
       description:
         "Unlock the Best of Both Worlds—The Security and Control of DEX Meets the Speed and Liquidity of CEX.",
       icon: FiDatabase,
-      href: "https://cexdex.example.com",
-      github: "https://github.com/your-org/cexdex",
+      href: "https://uptime.theaanurag.xyz/",
+      github: "https://github.com/theanuragg/UPtime-monitoring",
       image: "/uptime.JPG",
     },
     {
@@ -33,7 +32,7 @@ export default function ProjectsGrid() {
         "Build Websites Faster—Effortless, Scalable, and Customizable in Just a Few Clicks.",
       icon: FaMarkdown,
       href: "https://sitebuilder.example.com",
-      github: "htt[ps://github.com/your-org/sitebuilder",
+      github: "https://github.com/theanuragg/DCEX",
       image: "",
     },
     {
@@ -41,8 +40,8 @@ export default function ProjectsGrid() {
       description:
         "From Idea to Innovation—Share Your Build, Inspire the Future.",
       icon: FaDiscord,
-      link: "https://photoai.example.com",
-      github: "https://github.com/your-org/katha",
+      link: "https://vras-ai-theanurags-projects.vercel.app/",
+      github: "https://github.com/theanuragg/photo-ai",
       image: "/photoai.JPG",
     },
     {
@@ -50,15 +49,15 @@ export default function ProjectsGrid() {
       description:
         "Record, Share, and Collaborate—Effortless Video Messaging for Seamless Communication.",
       icon: BsRobot,
-      href: "https://aloom.example.com",
-      github: "",
+      href: "https://ai.theaanurag.xyz/",
+      github: "https://github.com/theanuragg/AI",
       image: "/ai.JPG",
     },
   ];
 
   return (
     <section className="py-16">
-      <h2 className="text-2xl text-gray-300 font-bold mb-8">Latest Projects</h2>
+      <h2 className="text-2xl font-pixel text-green-400 mb-10">Latest Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />

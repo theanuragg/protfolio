@@ -17,7 +17,6 @@ interface ProjectCardProps {
 export default function ProjectCard({
   title,
   description,
-  icon: Icon,
   href,
   github,
   image,
