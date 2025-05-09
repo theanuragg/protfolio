@@ -1,43 +1,60 @@
-'use client'
+"use client";
 
-import React from 'react'
-import ProjectCard from './ProjectCard'
-import { FiDatabase } from 'react-icons/fi'
-import { FaDiscord, FaMarkdown } from 'react-icons/fa'
-import { BsRobot } from 'react-icons/bs'
+import React from "react";
+import ProjectCard from "./ProjectCard";
+import { FiDatabase } from "react-icons/fi";
+import { FaDiscord, FaMarkdown } from "react-icons/fa";
+import { BsRobot } from "react-icons/bs";
+import { link } from "fs";
 
 export default function ProjectsGrid() {
   const projects = [
     {
-      title: "Gathering",
-      description: "Your office, anywhere—customizable, collaborative, and built for every way your team works best.",
-      icon: FiDatabase
+      title: "Relayer",
+      description:
+        "Your office, anywhere—customizable, collaborative, and built for every way your team works best.",
+      icon: FiDatabase,
+      href: "https://relayer.theaanurag.xyz/",
+      github: "https://github.com/your-org/relayer",
+      image: "/relayer.jpg"
     },
     {
-      title: "CEX & DEX ",
-      description: "Unlock the Best of Both Worlds—The Security and Control of DEX Meets the Speed and Liquidity of CEX.",
-      icon: FiDatabase
+      title: "uptime monitoring",
+      description:
+        "Unlock the Best of Both Worlds—The Security and Control of DEX Meets the Speed and Liquidity of CEX.",
+      icon: FiDatabase,
+      href: "https://cexdex.example.com",
+      github: "https://github.com/your-org/cexdex",
+      image: "/uptime.JPG",
     },
     {
-      title: "Website Builder",
-      description: "Build Websites Faster—Effortless, Scalable, and Customizable in Just a Few Clicks.",
-      icon: FaMarkdown
+      title: "DCEX",
+      description:
+        "Build Websites Faster—Effortless, Scalable, and Customizable in Just a Few Clicks.",
+      icon: FaMarkdown,
+      href: "https://sitebuilder.example.com",
+      github: "htt[ps://github.com/your-org/sitebuilder",
+      image: "",
     },
     {
-      title: "Katha.io",
-      description: "From Idea to Innovation—Share Your Build, Inspire the Future.",
-      icon: FaDiscord
+      title: "Photo Ai",
+      description:
+        "From Idea to Innovation—Share Your Build, Inspire the Future.",
+      icon: FaDiscord,
+      link: "https://photoai.example.com",
+      github: "https://github.com/your-org/katha",
+      image: "/photoai.JPG",
     },
     {
-      title: "Aloom",
-      description: "Record, Share, and Collaborate—Effortless Video Messaging for Seamless Communication.",
-      icon: BsRobot
+      title: "Debate Ai",
+      description:
+        "Record, Share, and Collaborate—Effortless Video Messaging for Seamless Communication.",
+      icon: BsRobot,
+      href: "https://aloom.example.com",
+      github: "",
+      image: "/ai.JPG",
     },
-    {
-      title: "Gumi",
-      description: "Explore Like a Local—Rent a Guider, Be a Guider, Discover Hidden Gems.",
-    }
-  ]
+  ];
 
   return (
     <section className="py-16">
@@ -48,5 +65,5 @@ export default function ProjectsGrid() {
         ))}
       </div>
     </section>
-  )
-} 
+  );
+}
