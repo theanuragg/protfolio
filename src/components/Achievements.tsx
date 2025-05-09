@@ -39,7 +39,7 @@ export default function Achievements() {
 
   return (
     <section className="py-16">
-      <h2 className="text-2xl font-serif mb-8 text-gray-100">
+      <h2 className="text-2xl  mb-8 font-pixel text-green-400 ">
         Achievements
         <div className="h-1 w-10 bg-[#64ffda] mt-2 rounded-full"></div>
       </h2>

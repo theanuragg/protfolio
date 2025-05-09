@@ -29,3 +29,7 @@ body {
   font-size: 3rem;
   padding: 1rem 0;
 }
+
+.image-rendering-pixelated {
+  image-rendering: pixelated;
+}
