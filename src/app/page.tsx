@@ -8,7 +8,7 @@ export default function Home() {
     <main className="min-h-screen bg-[#0a192f]">
       <div className="max-w-6xl mx-auto px-4">
         <Header />
-       
+hey
         <Achievements />
       </div>
     </main>
