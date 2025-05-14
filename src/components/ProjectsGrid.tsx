@@ -11,16 +11,16 @@ export default function ProjectsGrid() {
     {
       title: "Relayer",
       description:
-        "Your office, anywhere—customizable, collaborative, and built for every way your team works best.",
+        "Relayer is a visual interface that shows how accounts are connected and interact over time. Designed for devs, users, and analysts, it brings context to raw on-chain data without needing to sift through complex transaction logs.",
       icon: FiDatabase,
       href: "https://relayer.theaanurag.xyz/",
       github: "https://github.com/your-org/relayer",
       image: "/relayer.JPG"
     },
     {
-      title: "uptime monitoring",
+      title: "Uptime Monitoring",
       description:
-        "Unlock the Best of Both Worlds—The Security and Control of DEX Meets the Speed and Liquidity of CEX.",
+        "A platform to monitor website latency and get instant alerts when it's down. Stay informed and ensure your services are always up.",
       icon: FiDatabase,
       href: "https://uptime.theaanurag.xyz/",
       github: "https://github.com/theanuragg/UPtime-monitoring",
@@ -29,16 +29,16 @@ export default function ProjectsGrid() {
     {
       title: "DCEX",
       description:
-        "Build Websites Faster—Effortless, Scalable, and Customizable in Just a Few Clicks.",
+        "A platform to swap and perform transactions using Jupiter aggregator on Solana. Simple, fast, and secure DeFi experience.",
       icon: FaMarkdown,
-      href: "https://sitebuilder.example.com",
+      href: "",
       github: "https://github.com/theanuragg/DCEX",
-      image: "",
+      image: "/crypto.JPG",
     },
     {
       title: "Photo Ai",
       description:
-        "From Idea to Innovation—Share Your Build, Inspire the Future.",
+        "An app to create AI-generated images using Flux AI. Bring your imagination to life in seconds.",
       icon: FaDiscord,
       link: "https://vras-ai-theanurags-projects.vercel.app/",
       github: "https://github.com/theanuragg/photo-ai",
@@ -47,7 +47,7 @@ export default function ProjectsGrid() {
     {
       title: "Debate Ai",
       description:
-        "Record, Share, and Collaborate—Effortless Video Messaging for Seamless Communication.",
+        "A normal AI chatbot with an extra feature to debate on topics using AI. Sharpen your arguments and get AI-driven opinions.",
       icon: BsRobot,
       href: "https://ai.theaanurag.xyz/",
       github: "https://github.com/theanuragg/AI",
